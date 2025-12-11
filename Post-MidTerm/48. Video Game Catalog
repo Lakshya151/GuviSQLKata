@@ -1,0 +1,9 @@
+Q1. FROM video_games WHERE release_date >= '2021-01-01';
+
+Q2. select count(*) from video_games where platform ='PC';
+
+Q3. select * from video_games where developer='Nintendo';
+
+Q4. select * from video_games where genre='RPG' order by release_date desc;
+
+Q5. SELECT AVG(CAST(strftime('%Y', release_date) AS INTEGER)) AS avg_release_year FROM video_games;
